@@ -33,7 +33,7 @@ The bounding box prediction branch also uses convolutional layers with 3x3 kerne
 These two branches are connected to a common input layer, which takes the input images. The model is trained to simultaneously optimize both the class prediction and bounding box prediction tasks.
 
 <p align="center">
-  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/model.png" width="300" alt="Number 2">
+  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/model.png" width="300" alt="Model Architecture">
 </p>
 
 ## implementation
