@@ -33,7 +33,7 @@ The bounding box prediction branch also uses convolutional layers with 3x3 kerne
 These two branches are connected to a common input layer, which takes the input images. The model is trained to simultaneously optimize both the class prediction and bounding box prediction tasks.
 
 <p align="center">
-  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/model.png" width="500" alt="Number 2">
+  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/model.png" width="300" alt="Number 2">
 </p>
 
 ## implementation
@@ -57,13 +57,13 @@ The model was trained for a total of 55 epochs, with an initial training phase o
 - After 5 epochs: The model achieved an accuracy of 69.412% and an IoU (Intersection over Union) of 61.362%.
 
 <p align="center">
-  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/5_epochs.png" width="500" alt="Results after 5 epochs">
+  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/5_epochs.png" width="800" alt="Results after 5 epochs">
 </p>
 
 - After 50 epochs: The model demonstrated significant improvement, achieving an accuracy of 98.235% and an IoU of 77.791%.
 
 <p align="center">
-  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/50_epochs.png" width="500" alt="Results after 50 epochs">
+  <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/results/50_epochs.png" width="800" alt="Results after 50 epochs">
 </p>
 
 These results indicate that the model has successfully learned to classify and localize the Persian digits. Despite the small size of the dataset used in this project, the achieved performance is quite promising. It is important to note that having a larger dataset would likely lead to even better performance and help mitigate overfitting issues.
