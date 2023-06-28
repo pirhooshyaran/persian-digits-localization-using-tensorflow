@@ -51,7 +51,7 @@ In this project, the implementation steps involved:
 
 - Training the model: The model was initially trained for 5 epochs to observe the initial improvements. Afterwards, the model was trained for an additional 50 epochs to further refine its performance and achieve the final results.
 
-## results
+## Results
 The model was trained for a total of 55 epochs, with an initial training phase of 5 epochs and a subsequent training phase of 50 epochs. The following are the results obtained from the training:
 
 - After 5 epochs: The model achieved an accuracy of 69.412% and an IoU (Intersection over Union) of 61.362%.
