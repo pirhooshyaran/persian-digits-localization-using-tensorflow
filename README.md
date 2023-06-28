@@ -4,7 +4,7 @@
 This project focuses on the task of localizing Persian digits. The goal is to accurately detect and localize digits within an image. The project specifically focuses on the localization of digits 3, 5, and 7 for the sake of simplicity. By leveraging machine learning techniques, the project aims to develop a model capable of accurately identifying and bounding the target digits within images.
 
 ## Dataset and Data Preparation
-The dataset used for this project was prepared for another task and is available in the [GitHub repository](https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5).
+The dataset used for this project was prepared for another task and is available in this [GitHub repository](https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5).
 To enhance the dataset and improve the model's performance, each original image was used to create five augmented images. The augmentation process involved randomly selecting the center of each of the five images. The original images were of size (50, 50), while the augmented images were resized to (100, 100). This augmentation step aimed to increase the variability in the dataset and improve the model's ability to generalize. You can see the details in `create_images.py` file.
 
 <p align="left">
@@ -15,7 +15,7 @@ To enhance the dataset and improve the model's performance, each original image 
   <img src="https://github.com/pirhooshyaran/persian-digits-localization-using-tensorflow/blob/master/new_images/0005.png" width="100" alt="Image 5">
 </p>
 
-After preparing the images, the dataset was labeled to provide ground truth information for the localization task. The annotation process was performed using the [LabelImg repository](https://github.com/heartexlabs/labelImg). Annotation files were created to associate bounding box coordinates with the corresponding digits in the images.
+After preparing the images, the dataset was labeled to provide ground truth information for the localization task. The annotation process was performed using [LabelImg](https://github.com/heartexlabs/labelImg). Annotation files were created to associate bounding box coordinates with the corresponding digits in the images.
 
 ## Methodology and Model Architecture
 This project utilizes a Convolutional Neural Network (CNN) for the task of localizing Persian digits. The model architecture is implemented using the TensorFlow library.
